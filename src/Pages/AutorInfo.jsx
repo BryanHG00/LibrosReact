@@ -48,7 +48,7 @@ export const AutoresInfo = () =>{
                         <div className="vt"><h3>Libros </h3><span><a href="#" className="vtbtn">Ver todos</a></span></div>
                         <div  className="contenedorLibros">
                             {libros.map((item, index) => (
-                                <Link className="libroItem" key={index}>
+                                <Link className="libroItem" key={index} to={"/Libros/"+item.id_libro} state={{id_libro: item.id_libro}}>
                                     <img  className="caratulaAI" src={item.caratulaurl} ></img>
                                     <p>{item.titulo}</p>
                                 </Link>

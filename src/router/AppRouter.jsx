@@ -9,6 +9,7 @@ import { GeneroPage } from "../Pages/GeneroPage"
 import { EditorialInfo } from "../Pages/EditorialInfo"
 import { GeneroInfo } from "../Pages/GeneroInfo"
 import { LibrosPage } from "../Pages/LibrosPage"
+import { LibrosInfo } from "../Pages/LibrosInfo"
 export const AppRouter = () =>{
 
     return(
@@ -26,7 +27,7 @@ export const AppRouter = () =>{
                 <Route path='Genero' element={<GeneroPage />}/>
                 <Route path='Genero/:id' element={<GeneroInfo />}/>
                 <Route path='Libros' element={<LibrosPage />}/>
-                <Route path='Libros/:id' element={<LibrosPage />}/>
+                <Route path='Libros/:id' element={<LibrosInfo />}/>
 
             </Route>
         </Routes>

@@ -32,7 +32,7 @@ export const LibrosPage = () =>{
                 
                 {libros.map((item, index) => (
                     <div className="ele" key={index}>
-                    <Link className="libroItemOf" to={"/Libros/"+item.id_libro}>
+                    <Link className="libroItemOf" to={"/Libros/"+item.id_libro} state={{id_libro: item.id_libro}}>
                         <img  className="caratulaAI" src={item.caratulaurl} ></img>
                         <p>{item.titulo}</p>
                     </Link>
