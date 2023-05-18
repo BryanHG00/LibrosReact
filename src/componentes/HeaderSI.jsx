@@ -22,7 +22,7 @@ export function HeaderSI({ nombre="Sin identificar"}){
                     <div className="Menu-contenido-derecha">
                         <Link to='/' className="LinksBtn"><img src="../../public/imgs/home-web.png"></img>Home</Link>
                         <div className="dropdown">
-                            <Link to='/libros' state={{logged:true, nombre: nombre}} className="btnLinkCategoria"><img src="../../public/imgs/categoria.png"></img>Libros</Link>
+                            <Link to='/Libros' state={{logged:true, nombre: nombre}} className="btnLinkCategoria"><img src="../../public/imgs/categoria.png"></img>Libros</Link>
                             <div className="dropdown-Content">
                                 <Link to='/Genero' state={{logged:true, nombre: nombre}}><b>x</b> Genero</Link>
                                 <Link to='/Editoriales' state={{logged:true, nombre: nombre}}><b>x</b> Editorial</Link>

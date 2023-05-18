@@ -293,6 +293,30 @@ html{
     overflow-inline: auto;
 }
 
+.contenedorLibrosgrl{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgba(3, 175, 255, 0.87);
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.libroItemOf{
+    display: block;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.libroItemOf p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
 .contenedorLibrosEditorial{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -336,5 +360,4 @@ html{
     background-color: rgba(3, 175, 255, 0.87);
     border-radius: 0.5rem;
     padding: 1rem;
-
 }
