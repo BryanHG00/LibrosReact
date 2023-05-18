@@ -43,6 +43,7 @@ export const EditorialInfo = () =>{
                                 </Link>
                             ))}
                         </div>
+
                         
                     </div>
                     

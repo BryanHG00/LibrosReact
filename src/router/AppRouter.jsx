@@ -5,7 +5,9 @@ import { Autores } from "../Pages/AutoresPage"
 import { AutoresInfo } from "../Pages/AutorInfo"
 import { Master } from "../componentes/Master"
 import { Inicio } from "../Pages/Inicio"
+import { GeneroPage } from "../Pages/GeneroPage"
 import { EditorialInfo } from "../Pages/EditorialInfo"
+import { GeneroInfo } from "../Pages/GeneroInfo"
 export const AppRouter = () =>{
 
     return(
@@ -20,6 +22,9 @@ export const AppRouter = () =>{
                 <Route path='Editoriales/:id' element={<EditorialInfo />}/>
                 <Route path='Autores' element={<Autores />}/>
                 <Route path='Autores/:id' element={<AutoresInfo />}/>
+                <Route path='Genero' element={<GeneroPage />}/>
+                <Route path='Genero/:id' element={<GeneroInfo />}/>
+
             </Route>
         </Routes>
         </>

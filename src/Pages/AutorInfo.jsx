@@ -57,6 +57,8 @@ export const AutoresInfo = () =>{
                         </div>
                         <h3>Genero del autor</h3>
 
+                        <h3>Últimas reseñas de sus libros</h3>
+                        
                     </div>
                     
                 </div>

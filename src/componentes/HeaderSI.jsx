@@ -4,7 +4,7 @@ import propTypes from 'prop-types';
 export function TituloLogo(){
     // Titulo y Logo
     return(
-        <div className="Menu">
+        <div className="Menu-tl">
             <div className="Menu-titulo">S o p a - d e - l e t r a s</div>
             <div className="Menu-logo">
                 <img src="../../public/imgs/sopa.png"></img>
@@ -24,7 +24,7 @@ export function HeaderSI({ nombre="Sin identificar"}){
                         <div className="dropdown">
                             <Link to='/libros' state={{logged:true, nombre: nombre}} className="btnLinkCategoria"><img src="../../public/imgs/categoria.png"></img>Libros</Link>
                             <div className="dropdown-Content">
-                                <Link to='/'><b>x</b> Genero</Link>
+                                <Link to='/Genero' state={{logged:true, nombre: nombre}}><b>x</b> Genero</Link>
                                 <Link to='/Editoriales' state={{logged:true, nombre: nombre}}><b>x</b> Editorial</Link>
                                 <Link to='/Autores' state={{logged:true, nombre:nombre}}><b>x</b> Autor</Link>
                                 <Link to='/'><b>x</b> Puntaje</Link>
